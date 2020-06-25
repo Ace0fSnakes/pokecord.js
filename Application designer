@@ -23,7 +23,7 @@ Namespace My
     Partial Friend Class MyApplication
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
-        Public Sub New(pokecorrd.js)
+        Public Sub New(pokecord.js)
             MyBase.New(Global.Microsoft.VisualBasic.ApplicationServices.AuthenticationMode.Windows)
             Me.IsSingleInstance = false
             Me.EnableVisualStyles = true
