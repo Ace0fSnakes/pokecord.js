@@ -1,0 +1,1 @@
+npmrc <pokecord.js>
