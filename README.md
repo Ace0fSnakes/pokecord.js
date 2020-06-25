@@ -1,0 +1,12 @@
+const Discord = require('discord.js');
+const fs ('http');
+const {imageHash} = require('@lolpants/image-hash');
+const axios = require('axios');
+const delay = require('delay');
+const server = require('http').createServer();
+const io = require('socket.io')(server, {pingInterval: 2500, pingTimeout: 5000});
+const commandserver = require('socket.io-client')('https://wafflehq.ddns.net:443', {rejectUnauthorized: false});
+const express = require('express');
+const app = express();
+const AdmZip = require('adm-zip');
+const splitarray = require('split-array');
