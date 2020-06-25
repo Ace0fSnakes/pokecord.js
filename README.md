@@ -1,1 +1,2 @@
-npmrc <pokecord.js>
+
+npm i jimp
